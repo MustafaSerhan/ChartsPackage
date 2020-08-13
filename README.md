@@ -6,9 +6,10 @@ A new Flutter application.
         return MaterialApp( 
             title:"Flutter Demo", 
             theme: ThemeData( 
-                primarySwatch: Colors.blue,
-                visualDensity: VisualDensity.adaptivePlatformDensity, ), 
-                home:MyHomePage(title: 'Flutter Demo Home Page'), );
+                    primarySwatch: Colors.blue,
+                    visualDensity: VisualDensity.adaptivePlatformDensity,
+             ), 
+            home:MyHomePage(title: 'Flutter Demo Home Page'), );
     }  
 
 ## Getting Started
