@@ -2,17 +2,14 @@
 
 A new Flutter application.
 
-`Widget build(BuildContext context) { `
-
-    `return MaterialApp( title:`
- 
-    `'Flutter Demo', theme: ThemeData( primarySwatch: Colors.blue,`
-
-    `visualDensity: VisualDensity.adaptivePlatformDensity, ), home:`
-
-    `MyHomePage(title: 'Flutter Demo Home Page'), );`
-
-`}`
+    Widget build(BuildContext context) { 
+        return MaterialApp( 
+            title:"Flutter Demo", 
+            theme: ThemeData( 
+                primarySwatch: Colors.blue,
+                visualDensity: VisualDensity.adaptivePlatformDensity, ), 
+                home:MyHomePage(title: 'Flutter Demo Home Page'), );
+    }  
 
 ## Getting Started
 
